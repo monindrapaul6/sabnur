@@ -1,0 +1,37 @@
+<?php
+
+use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
+
+class CreateSlidersTable extends Migration
+{
+    /**
+     * Run the migrations.
+     *
+     * @return void
+     */
+    public function up()
+    {
+        Schema::create('sliders', function (Blueprint $table) {
+            $table->id();
+            $table->unsignedBigInteger('picture_id');
+            $table->foreign('picture_id')->references('id')->on('pictures');
+            $table->string('slider_url', 191)->nullable();
+            $table->string('slider_type', 191)->nullable();
+            $table->tinyInteger('slider_order')->nullable();
+            $table->string('status', 8)->default('ACTIVE');
+            $table->timestamps();
+        });
+    }
+
+    /**
+     * Reverse the migrations.
+     *
+     * @return void
+     */
+    public function down()
+    {
+        Schema::dropIfExists('sliders');
+    }
+}

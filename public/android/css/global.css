@@ -1,0 +1,25 @@
+:root {
+  /* fonts */
+  --font-inter: 'Inter', sans-serif;
+
+  /* font sizes */
+  --font-size-2xs: 10px;
+  --font-size-xs: 12px;
+  --font-size-sm: 13px;
+  --font-size-base: 18px;
+  --font-size-lg: 20px;
+  --font-size-xl: 25px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-green: #00bd3a;
+  --color-black: #000;
+  --color-gray-100: rgba(0, 0, 0, 0.56);
+
+  /* Paddings */
+  --padding-md: 10px;
+
+  /* border radiuses */
+  --br-sm: 22.5px;
+  --br-md: 24px;
+}

@@ -1,0 +1,332 @@
+body{
+    /*font-family: 'Raleway', sans-serif;*/
+    font-size: var(--font-size-sm);
+}
+.headerInfo{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: var(--color-green);
+    color: #fff;
+    z-index: 11;
+    padding: 11px 6px;
+}
+.headerInfo a:link, .headerInfo a:visited, .headerInfo a:hover{
+    color: #fff;
+    text-decoration: none;
+}
+.headerPart{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: #fff;
+    z-index: 10;
+    padding: 10px 0;
+}
+.header{
+    width: 96%;
+    display: inline-block;
+}
+/*.header .contact_info, .header .logo_info, .header .wp_info{
+    width: 33.33%;
+    float: left;
+}*/
+.header .logo_info{
+    text-align: center;
+}
+.header .wp_info{
+    text-align: right;
+}
+/*search*/
+.searchOption{
+    width: 100%;
+    margin-top: 8px;
+    display: inline-block;
+    justify-items: center;
+}
+.searchOption .searchbar{
+    background-color: #e8e8e8;
+    border-radius: 16px;
+    padding: 3px 10px;
+    box-sizing: border-box;
+}
+.searchOption .searchbar input[type=text]{
+    width: 90%;
+    outline: none;
+    border: 0;
+    background-color: transparent;
+    padding: 2px;
+    font-size: 14px;
+    color: #333333;
+}
+
+
+.footerPart{
+    width: 100%;
+    background-color: transparent;
+    position: fixed;
+    bottom: 0;
+    z-index: 10;
+}
+.footer{
+    width: 100%;
+    background-color: #00bd3a;
+    padding: 6px 0;
+    
+}
+.footer .footer_item{
+    width: 23.9%;
+    text-align: center;
+}
+.footer .footer_item a .bi{
+    color: #fff;
+}
+
+/*--categoyr*/
+ .categorySection h1{
+     font-size: var(--font-size-lg);
+ }
+.category_thumb{
+    padding: 0 5px;
+    box-sizing: border-box;
+}
+.category_thumb a{
+    text-decoration: none;
+}
+.category_thumb h6{
+    font-size: 12px;
+    font-weight: 500;
+    color: #111111;
+}
+.category_thumb img{
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+}
+/*--category*/
+/*category details*/
+.categoryDetails h5{
+    font-size: var(--font-size-sm);
+    font-weight: 500;
+}
+.product-items{
+    box-sizing: border-box;
+    min-height: 185px;
+    margin-bottom: 15px;
+}
+.product-items h6{
+    min-height: 40px;
+}
+.product-items h6 a{
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 500;
+    color: #111111;
+}
+.product-items .productPriceBtn{
+    background-color: var(--color-green);
+    border: 0;
+    width: 100%;
+    text-align: left;
+    padding: 2px 14px;
+    border-radius: 12px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 500;
+}
+/*category details*/
+/*homepage*/
+.homePageSection h5, .homePageSection h1{
+    font-size: 15px;
+    font-weight: 500;
+    color: #000;
+}
+.homePageSection .companyInfo h5{
+    font-size: 14px;
+}
+.homePageSection .companyInfo p{
+    font-size: 13px;
+}
+/*homepage*/
+/*my account*/
+.myAccount h1{
+    font-size: var(--font-size-lg);
+}
+.myAccount h3, .myPage h3{
+    font-size: 16px;
+}
+.myAccount .accountItem{
+    width: 50%;
+    box-sizing: border-box;
+    margin: 5px;
+    width: 150px;
+    height: 150px;
+    float: left;
+    border-radius: 6px;
+    padding: 12px;
+}
+.myAccount .accountItem h2{
+    font-size: 16px;
+    color: #ffffff;
+    margin-top: 45px;
+}
+.myAccount .bg1{
+    background-color: #B300DF;
+}
+.myAccount .bg2{
+    background-color: #FFC700;
+}
+.myAccount .bg3{
+    background-color: #00B7DF;
+}
+.myAccount .bg4{
+    background-color: #FF007A;
+}
+.myAccount .bg5{
+    background-color: #1900B6;
+}
+.myAccount .bg6{
+    background-color: #00BD3A;
+}
+
+/*my account*/
+
+/*address*/
+.myAccount .AddressItem{
+    background-color: #e4e4e4;
+    border-radius: 8px;
+    width: 90%;
+    padding: 15px;
+}
+.myAccount .AddressItem h3{
+    font-size: 15px;
+}
+.myAccount .AddressItem p{
+    font-size: 13px;
+}
+.myAccount .AddressItem .btn1, .myAccount .AddressItem .btn2{
+    font-size: 13px;
+    font-weight: 500;
+    padding: 2px 14px;
+    border-radius: 3px;
+}
+.myAccount .AddressItem .btn1{
+    border: 1px solid var(--color-green);
+    background-color: transparent;
+    color: var(--color-green);
+}
+.myAccount .AddressItem .btn2{
+    border: 1px solid var(--color-green);
+    background-color: var(--color-green);
+    color: #fff;
+}
+.myAccount .AddressItem .btn3{
+    border: 0;
+    background-color: transparent;
+    float: right;
+}
+/*address*/
+
+.formSection label{
+    display: block;
+    font-size: 13px;
+    font-weight: 500;
+    margin-bottom: 6px;
+}
+.formSection .formInput{
+    width: 100%;
+    font-size: 14px;
+    font-weight: 500;
+    outline: none;
+    border: 1px solid #cccccc;
+    color: #000;
+    border-radius: 6px;
+    padding: 4px 6px;
+    box-sizing: border-box;
+}
+.formSection .text-danger{
+    font-size: 12px;
+    color: #f00;
+}
+.formSection .submitBtn{
+    width: 100%;
+    background-color: var(--color-green);
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 6px 8px;
+    border: 0;
+    border-radius: 15px;
+    box-sizing: border-box;
+    text-align: center;
+}
+/*my orders*/
+.myOrder h3, .myOrderDetails h3{
+    font-size: 16px;
+}
+.myOrderDetails h4, .myOrderDetails h6{
+    font-size: 14px;
+}
+.myOrder .orderItem{
+    font-size: 10px;
+    font-weight: 500;
+    border-bottom: 1px solid #cccccc;
+    /*padding: 6px 10px;*/
+    box-sizing: border-box;
+    word-wrap: break-word;
+}
+.myOrder .orderItem span{
+    font-size: 11px;
+    font-weight: 400;
+}
+.myOrder .orderItem h4{
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 5px;
+}
+.myOrder .orderItem h4 a{
+    color: #333333;
+    text-decoration: none;
+}
+.myOrderDetails p{
+    font-size: 12px;
+    margin: 0;
+    color: #444444;
+    font-weight: 400;
+}
+.myOrderDetails p span{
+    color: #111111;
+    font-weight: 500;
+}
+.myOrderDetails .paymentMode p{
+    font-size: 13px;
+    width: 100%;
+    color: #333333;
+}
+.myOrderDetails .paymentMode span{
+    float: right;
+    padding-right: 5px;
+}
+/*my orders*/
+/*page*/
+.myPage h4{
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--color-green);
+}
+.myPage p{
+    font-size: 13px;
+    font-weight: 500;
+    color: #111111;
+}
+.myPage p span{
+    margin-right: 10px;
+}
+.myPage p a{
+    color: #111111;
+    text-decoration: none;
+}
+.myPage h5{
+    font-size: 15px;
+    color: #111111;
+}
