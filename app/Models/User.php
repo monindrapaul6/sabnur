@@ -21,6 +21,8 @@ class User extends Authenticatable
 
     const DefaultPassword = '12345678';
 
+const NewName = 'Guest';	
+
     /**
      * The attributes that are mass assignable.
      *
